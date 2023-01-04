@@ -1,0 +1,33 @@
+{
+	"name": "pipeline2",
+	"properties": {
+		"activities": [
+			{
+				"name": "Set variable1",
+				"type": "SetVariable",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "query",
+					"value": {
+						"value": "SELECT * FROM TABLE WHERE DATA_INICIO >='@{pipeline().parameters.p_data}'",
+						"type": "Expression"
+					}
+				}
+			}
+		],
+		"parameters": {
+			"p_data": {
+				"type": "string"
+			}
+		},
+		"variables": {
+			"query": {
+				"type": "String"
+			}
+		},
+		"annotations": [],
+		"lastPublishTime": "2022-12-28T17:28:54Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}

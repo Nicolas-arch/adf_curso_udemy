@@ -1,0 +1,9 @@
+{
+	"name": "adf-eliab-udemy",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "94add630-f1fc-46eb-8c49-d534f286d423",
+		"tenantId": "e50b03bb-31c3-44bd-b249-60b76c293315"
+	}
+}
