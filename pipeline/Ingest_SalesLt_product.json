@@ -6,7 +6,6 @@
 				"name": "Set_current_data",
 				"type": "SetVariable",
 				"dependsOn": [],
-				"userProperties": [],
 				"typeProperties": {
 					"variableName": "current_date",
 					"value": {
